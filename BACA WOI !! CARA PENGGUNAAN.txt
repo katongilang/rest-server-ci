@@ -1,0 +1,11 @@
+tutorial : 
+-build : https://www.youtube.com/watch?v=cb3-Cm3Al3c&list=PLFIM0718LjIW7AsIbnhFg15t9yx4H-sQ0&index=7
+-authentifikasi : https://www.youtube.com/watch?v=VGmHzSEf2Sk&list=PLFIM0718LjIW7AsIbnhFg15t9yx4H-sQ0&index=8
+
+localhost/rest-server-ci
+
+1. cara testnya pake POST MAN !
+2. Karena sudah pake auth, maka jgn lupa di postman bagian Authorization pilih basic auth, trus isi user pass
+3. Kalo mau GET cukup tab Params saja di POSTMAN
+4. KALO mau yang selain GET kayak POST,PUT,DELETE pakainya tab Body dan jgn lupa cek x-www-form-urlencoded
+5. Jangan lupa isi mahasiswa-api-key,id,nrp,nama,email,jurusan,dll supaya bisa dapet endpointnya
